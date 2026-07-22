@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "chat-extensions",
+  "version": "${version}",
+  "name": "Chat Extensions",
+  "description": "Server-side chat enhancements. Turns tokens like [item] in chat into rich components, for example the item in your hand as a hoverable [Name] showing its full tooltip (lore, stats, enchants). A general, extensible chat framework. Players install nothing.",
+  "authors": ["Cammy"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      { "adapter": "kotlin", "value": "dev.chatextensions.ChatExtensionsMod" }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13"
+  }
+}
