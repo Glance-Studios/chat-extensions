@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Chat Extensions",
   "description": "Server-side chat enhancements. Turns tokens like [item] in chat into rich components, for example the item in your hand as a hoverable [Name] showing its full tooltip (lore, stats, enchants). A general, extensible chat framework. Players install nothing.",
-  "authors": ["Cammy"],
+  "authors": ["Glance Studios"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
